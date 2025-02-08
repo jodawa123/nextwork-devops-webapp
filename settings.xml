@@ -1,0 +1,32 @@
+<settings>
+        <servers>
+        <server>
+            <id>next-next-packages</id>
+            <username>aws</username>
+            <password>eyJ2ZXIiOjEsImlzdSI6MTczOTAxMjI1MCwiZW5jIjoiQTEyOEdDTSIsInRhZyI6IkxTbXNtTXNqR04xbWNJTllzY0VZYnciLCJleHAiOjE3MzkwNTU0NTAsImFsZyI6IkExMjhHQ01LVyIsIml2IjoiMmVvdEdBYldLejlaUUZzaSJ9.A3S_JsHsZ9fxCFSfR2KXbw.V6YHf4K68LNIXY8d.-guz2C7MOX9ZC7p7rvtZcq3zDWa3a5p7j_ia1le5xgZ2vZz2X71fmxNzQ-u0pNHJSlWYzm1jdES-9NIdT4YAAmOzEQwwD0d1d0a1L7KOlC-OGEVtvamLhjzJg7YRV-dpGi0LvxRiX6YO2F61vJElZ_p6xMstS1OQKi4Kc_EL5o7xw9wifKQNurwpLIpYsDQ1gDyPo4SuMVo-WkbW9j-VXLrgQTp67MdfEklVCn8TTFYqiH9YP4uNlZ8c0sBtCahVefvdUyBodDpgJIS2XUOsDpiVRxu0gAQ2swmS5PDRLi1YMZJhS78qWUGDEpNFovHaSi3JfjdedluALVfkra78fzHpDO53g4vLq-HpfTCjcFU-uRH7-0YJeJPndz3Z2vX1ChyxWwEuKqVJUJhxpyM658al076V8xZzxK9b_dIFdJL-Qkj-FBrg5gwlzC9JFyuX8qR3guR0lH3vWDciWG9ipt7arAjD2WsTe9qQs1hzeKcCwThz6a0RKtkciucisYMcMmyBZ37Ns6gDFkzFDZ4Eg8gpp9yghDWyp7XBkZ6v1yiOZwAX_pa7PksTMQnTSZvRlSm20UOGGNGt91R0MnP0wP4TMPvE-0j7cYzum6CtP7OJ_PHwABN-dWH3yn6sRFAWjyidCtRBiRR1T1qtFvKryUJupG3rbrLbkmXpSUsZ_WfKgtkDnHjn95VaP5KkjjM3B8WwxB-Yg7deEDkvrUu2sZp-YG4G-kXb39PXKDI2nlsvpaYktQMBVIxG33XNTIA2RWcMAWTbCrEJIZORL1ibHA5kTQ3axQrJMG7V7d7BoS8HI3qThV38k7KR6P345dCPiYiE74EKF0gA4k5Dzgcv4upM7UPU01-qADlU5XNYzvWvTe3L04e-1Hjt2bf7ijWy2Wy9W4ue84vCBlTFL-TlVruF6wXnOaGbMS24zCmTZGtIZjwCvgzvmilURAqDCSxDfMGJzoSSHidw3oKio48ycMZ36JoB_j9oGpNwNJdMvi-X.qkBWd0zWB9NpJ7Okksvjrg</password>
+        </server>
+    </servers>
+    <profiles>
+        <profile>
+            <id>next-next-packages</id>
+            <activation>
+            <activeByDefault>true</activeByDefault>
+            </activation>
+                <repositories>
+                    <repository>
+                        <id>next-next-packages</id>
+                        <url>https://next-699475940278.d.codeartifact.us-east-1.amazonaws.com/maven/next-packages/</url>
+                    </repository>
+                </repositories>
+        </profile>
+    </profiles>
+    <mirrors>
+        <mirror>
+            <id>next-next-packages</id>
+            <name>next-next-packages</name>
+            <url>https://next-699475940278.d.codeartifact.us-east-1.amazonaws.com/maven/next-packages/</url>
+            <mirrorOf>*</mirrorOf>
+        </mirror>
+    </mirrors>
+
+</settings>
